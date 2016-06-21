@@ -1,0 +1,429 @@
+
+                                +----------------+
+------------------------------ { Script And Files }  ------------------------------
+                                +----------------+
+
+	Script Log File : /home/functest/OnosSystemTest/TestON/logs/FUNCvirNetNBL3_21_Jun_2016_07_14_55/FUNCvirNetNBL3_21_Jun_2016_07_14_55.log
+	Report Log File : /home/functest/OnosSystemTest/TestON/logs/FUNCvirNetNBL3_21_Jun_2016_07_14_55/FUNCvirNetNBL3_21_Jun_2016_07_14_55.rpt
+	ONOSrest Session Log : /home/functest/OnosSystemTest/TestON/logs/FUNCvirNetNBL3_21_Jun_2016_07_14_55/ONOSrest.session
+	Test Script :/home/functest/OnosSystemTest/TestON/Tests/FUNCvirNetNBL3.py
+	Test Params : /home/functest/OnosSystemTest/TestON/Tests/FUNCvirNetNBL3.params
+	Topology : /home/functest/OnosSystemTest/TestON/Tests/FUNCvirNetNBL3.topo
+                              +------------------+
+---------------------------  { Script Exec Params }  ---------------------------
+                              +------------------+
+
+	
+	'MININET': 
+	'switch': '7'
+	 'links': '20'
+	
+	 'GIT': 
+	'pull': 'False'
+	 'branch': 'master'
+	
+	 'HTTP': 
+	'path': '/onos/vtn/'
+	 'port': '8181'
+	
+	 'CTRL': 
+	'ip1': 'OC1'
+	 'port1': '6653'
+	
+	 'testcases': '2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11
+	12'
+	 'SLEEP': 
+	'startup': '15'
+	
+	 'ENV': 
+	'cellApps': 'drivers
+	openflow
+	proxyarp
+	mobility'
+	 'cellName': 'singlenode'
+	
+	
+
+                               +---------------+
+----------------------------- { Components Used }  -----------------------------
+                               +---------------+
+	ONOSrest
+
+
+                              +--------+
+---------------------------- { Topology }  ----------------------------
+                              +--------+
+
+	
+	'ONOSrest': 
+	'connect_order': '4'
+	 'host': 'OC1'
+	 'user': 'root'
+	 'COMPONENTS': ''
+	 'password': 'root'
+	 'type': 'OnosRestDriver'
+	
+	
+------------------------------------------------------------
+
+
+******************************
+ CASE INIT 
+******************************
+
+2016-06-21 07:14:55,481 - FUNCvirNetNBL3 - INFO - Creating component Handle: ONOSrest
+
+
+******************************
+ Result summary for Testcase2
+******************************
+
+
+[2016-06-21 07:14:55.608030] [FUNCvirNetNBL3] [CASE]  Virtual Network NBI Test - Router Post
+
+[2016-06-21 07:14:55.608828] [FUNCvirNetNBL3] [STEP]  2.1: Post Network Data via HTTP(Post Router need post network)
+
+[2016-06-21 07:14:55.653703] [FUNCvirNetNBL3] [STEP]  2.2: Post Router Data via HTTP
+
+[2016-06-21 07:14:55.662820] [FUNCvirNetNBL3] [STEP]  2.3: Get Router Data via HTTP
+
+[2016-06-21 07:14:55.670301] [FUNCvirNetNBL3] [STEP]  2.4: Compare Post Router Data via HTTP
+
+
+*****************************
+ Result: Pass 
+*****************************
+
+
+
+******************************
+ Result summary for Testcase3
+******************************
+
+
+[2016-06-21 07:14:55.693446] [FUNCvirNetNBL3] [CASE]  Virtual Network NBI Test - Router Update
+
+[2016-06-21 07:14:55.694683] [FUNCvirNetNBL3] [STEP]  3.1: Post Network Data via HTTP(Post Router need post network)
+
+[2016-06-21 07:14:55.708505] [FUNCvirNetNBL3] [STEP]  3.2: Post Router Data via HTTP
+
+[2016-06-21 07:14:55.720476] [FUNCvirNetNBL3] [STEP]  3.3: Update Router Data via HTTP
+
+[2016-06-21 07:14:55.738839] [FUNCvirNetNBL3] [STEP]  3.4: Get Router Data via HTTP
+
+[2016-06-21 07:14:55.747902] [FUNCvirNetNBL3] [STEP]  3.5: Compare Router Data
+
+[2016-06-21 07:14:55.749193] [FUNCvirNetNBL3] [STEP]  3.6: Delete Router via HTTP
+
+
+*****************************
+ Result: Pass 
+*****************************
+
+
+
+******************************
+ Result summary for Testcase4
+******************************
+
+
+[2016-06-21 07:14:55.773452] [FUNCvirNetNBL3] [CASE]  Virtual Network NBI Test - Router Delete
+
+[2016-06-21 07:14:55.774232] [FUNCvirNetNBL3] [STEP]  4.1: Post Network Data via HTTP(Post Router need post network)
+
+[2016-06-21 07:14:55.786215] [FUNCvirNetNBL3] [STEP]  4.2: Post Router Data via HTTP
+
+[2016-06-21 07:14:55.797265] [FUNCvirNetNBL3] [STEP]  4.3: Delete Router Data via HTTP
+
+[2016-06-21 07:14:55.803625] [FUNCvirNetNBL3] [STEP]  4.4: Get Router Data is NULL
+
+
+*****************************
+ Result: Pass 
+*****************************
+
+
+
+******************************
+ Result summary for Testcase5
+******************************
+
+
+[2016-06-21 07:15:00.831247] [FUNCvirNetNBL3] [CASE]  Virtual Network NBI Test - RouterInterface Post
+
+[2016-06-21 07:15:00.833355] [FUNCvirNetNBL3] [STEP]  5.1: Post Network Data via HTTP(Post port need post network)
+
+[2016-06-21 07:15:00.852352] [FUNCvirNetNBL3] [STEP]  5.2: Post Subnet Data via HTTP(Post port need post subnet)
+
+[2016-06-21 07:15:00.883510] [FUNCvirNetNBL3] [STEP]  5.3: Post Port Data via HTTP
+
+[2016-06-21 07:15:00.897017] [FUNCvirNetNBL3] [STEP]  5.4: Post Router Data via HTTP
+
+[2016-06-21 07:15:00.906432] [FUNCvirNetNBL3] [STEP]  5.5: Put RouterInterface Data via HTTP
+
+[2016-06-21 07:15:00.991241] [FUNCvirNetNBL3] [STEP]  5.6: Get RouterInterface Data via HTTP
+
+[2016-06-21 07:15:01.003246] [FUNCvirNetNBL3] [STEP]  5.7: Compare Post Port Data
+
+[2016-06-21 07:15:01.004744] [FUNCvirNetNBL3] [STEP]  5.8: Del RouterInterface Data via HTTP
+
+[2016-06-21 07:15:01.015381] [FUNCvirNetNBL3] [STEP]  5.9: Clean Data via HTTP
+
+
+*****************************
+ Result: Pass 
+*****************************
+
+
+
+******************************
+ Result summary for Testcase6
+******************************
+
+
+[2016-06-21 07:15:01.039532] [FUNCvirNetNBL3] [CASE]  Virtual Network NBI Test - RouterInterface Delete
+
+[2016-06-21 07:15:01.040767] [FUNCvirNetNBL3] [STEP]  6.1: Post Network Data via HTTP(Post port need post network)
+
+[2016-06-21 07:15:01.053048] [FUNCvirNetNBL3] [STEP]  6.2: Post Subnet Data via HTTP(Post port need post subnet)
+
+[2016-06-21 07:15:01.067525] [FUNCvirNetNBL3] [STEP]  6.3: Post Port Data via HTTP
+
+[2016-06-21 07:15:01.075698] [FUNCvirNetNBL3] [STEP]  6.4: Post Router Data via HTTP
+
+[2016-06-21 07:15:01.081804] [FUNCvirNetNBL3] [STEP]  6.5: Post RouterInterface Data via HTTP
+
+[2016-06-21 07:15:01.090107] [FUNCvirNetNBL3] [STEP]  6.6: Del RouterInterface Data via HTTP
+
+[2016-06-21 07:15:01.099803] [FUNCvirNetNBL3] [STEP]  6.7: Delete Port Data via HTTP
+
+[2016-06-21 07:15:01.109035] [FUNCvirNetNBL3] [STEP]  6.8: Get Port Data is NULL
+
+[2016-06-21 07:15:06.137518] [FUNCvirNetNBL3] [STEP]  6.9: Clean Data via HTTP
+
+
+*****************************
+ Result: Pass 
+*****************************
+
+
+
+******************************
+ Result summary for Testcase7
+******************************
+
+
+[2016-06-21 07:15:06.168964] [FUNCvirNetNBL3] [CASE]  Virtual Network NBI Test - FloatingIp Post
+
+[2016-06-21 07:15:06.170315] [FUNCvirNetNBL3] [STEP]  7.1: Post Network Data via HTTP(Post port need post network)
+
+[2016-06-21 07:15:06.182900] [FUNCvirNetNBL3] [STEP]  7.2: Post Subnet Data via HTTP(Post port need post subnet)
+
+[2016-06-21 07:15:06.200214] [FUNCvirNetNBL3] [STEP]  7.3: Post Port Data via HTTP
+
+[2016-06-21 07:15:06.215351] [FUNCvirNetNBL3] [STEP]  7.4: Post Router Data via HTTP
+
+[2016-06-21 07:15:06.226838] [FUNCvirNetNBL3] [STEP]  7.5: Get Port Data via HTTP
+
+[2016-06-21 07:15:06.254782] [FUNCvirNetNBL3] [STEP]  7.6: Post FloatingIp Data via HTTP
+
+[2016-06-21 07:15:06.268414] [FUNCvirNetNBL3] [STEP]  7.7: Get Port Data via HTTP
+
+[2016-06-21 07:15:06.281263] [FUNCvirNetNBL3] [STEP]  7.8: Get FloatingIp Data via HTTP
+
+[2016-06-21 07:15:06.299229] [FUNCvirNetNBL3] [STEP]  7.9: Get FloatingIp Data via HTTP
+
+[2016-06-21 07:15:06.307722] [FUNCvirNetNBL3] [STEP]  7.10: Compare Post FloatingIp Data
+
+[2016-06-21 07:15:06.308754] [FUNCvirNetNBL3] [STEP]  7.11: Post FloatingIp Clean Data via HTTP
+
+[2016-06-21 07:15:06.318769] [FUNCvirNetNBL3] [STEP]  7.12: Clean Data via HTTP
+
+
+*****************************
+ Result: Pass 
+*****************************
+
+
+
+******************************
+ Result summary for Testcase8
+******************************
+
+
+[2016-06-21 07:15:06.347894] [FUNCvirNetNBL3] [CASE]  Virtual Network NBI Test - FloatingIp Update
+
+[2016-06-21 07:15:06.349276] [FUNCvirNetNBL3] [STEP]  8.1: Post Network Data via HTTP(Post port need post network)
+
+[2016-06-21 07:15:06.359355] [FUNCvirNetNBL3] [STEP]  8.2: Post Subnet Data via HTTP(Post port need post subnet)
+
+[2016-06-21 07:15:06.374991] [FUNCvirNetNBL3] [STEP]  8.3: Post Port Data via HTTP
+
+[2016-06-21 07:15:06.384830] [FUNCvirNetNBL3] [STEP]  8.4: Post Router Data via HTTP
+
+[2016-06-21 07:15:06.394520] [FUNCvirNetNBL3] [STEP]  8.5: Post FloatingIp Data via HTTP
+
+[2016-06-21 07:15:06.420211] [FUNCvirNetNBL3] [STEP]  8.6: Post Delete Data via HTTP
+
+[2016-06-21 07:15:06.431349] [FUNCvirNetNBL3] [STEP]  8.7: Post NewPort Data via HTTP
+
+[2016-06-21 07:15:06.444219] [FUNCvirNetNBL3] [STEP]  8.8: Post NewFloatingIp Data via HTTP
+
+[2016-06-21 07:15:06.463016] [FUNCvirNetNBL3] [STEP]  8.9: Get NewFloatingIp Data via HTTP
+
+[2016-06-21 07:15:06.485888] [FUNCvirNetNBL3] [STEP]  8.10: Compare Post FloatingIp Data
+
+[2016-06-21 07:15:06.487373] [FUNCvirNetNBL3] [STEP]  8.11: Post FloatingIp Clean Data via HTTP
+
+[2016-06-21 07:15:06.511448] [FUNCvirNetNBL3] [STEP]  8.12: Clean Data via HTTP
+
+
+*****************************
+ Result: Pass 
+*****************************
+
+
+
+******************************
+ Result summary for Testcase9
+******************************
+
+
+[2016-06-21 07:15:06.564943] [FUNCvirNetNBL3] [CASE]  Virtual Network NBI Test - FloatingIp Delete
+
+[2016-06-21 07:15:06.566599] [FUNCvirNetNBL3] [STEP]  9.1: Post Network Data via HTTP(Post port need post network)
+
+[2016-06-21 07:15:06.596018] [FUNCvirNetNBL3] [STEP]  9.2: Post Subnet Data via HTTP(Post port need post subnet)
+
+[2016-06-21 07:15:06.609924] [FUNCvirNetNBL3] [STEP]  9.3: Post Port Data via HTTP
+
+[2016-06-21 07:15:06.621715] [FUNCvirNetNBL3] [STEP]  9.4: Post Router Data via HTTP
+
+[2016-06-21 07:15:06.632619] [FUNCvirNetNBL3] [STEP]  9.5: Post FloatingIp Data via HTTP
+
+[2016-06-21 07:15:06.643639] [FUNCvirNetNBL3] [STEP]  9.6: Post FloatingIp Clean Data via HTTP
+
+[2016-06-21 07:15:06.676413] [FUNCvirNetNBL3] [STEP]  9.7: Get FloatingIp Data is NULL
+
+[2016-06-21 07:15:11.701676] [FUNCvirNetNBL3] [STEP]  9.8: Clean Data via HTTP
+
+
+*****************************
+ Result: Pass 
+*****************************
+
+
+
+******************************
+ Result summary for Testcase10
+******************************
+
+
+[2016-06-21 07:15:11.730281] [FUNCvirNetNBL3] [CASE]  Virtual Network NBI Test - Gateway Post
+
+[2016-06-21 07:15:11.732275] [FUNCvirNetNBL3] [STEP]  10.1: Post Network Data via HTTP(Post port need post network)
+
+[2016-06-21 07:15:11.750599] [FUNCvirNetNBL3] [STEP]  10.2: Post Subnet Data via HTTP(Post port need post subnet)
+
+[2016-06-21 07:15:11.769813] [FUNCvirNetNBL3] [STEP]  10.3: Post Port Data via HTTP
+
+[2016-06-21 07:15:11.785540] [FUNCvirNetNBL3] [STEP]  10.4: Post Router Data via HTTP
+
+[2016-06-21 07:15:11.801839] [FUNCvirNetNBL3] [STEP]  10.5: Get Gateway Data via HTTP
+
+[2016-06-21 07:15:11.811072] [FUNCvirNetNBL3] [STEP]  10.6: Compare Post Gateway Data
+
+[2016-06-21 07:15:11.812706] [FUNCvirNetNBL3] [STEP]  10.7: Clean Data via HTTP
+
+
+*****************************
+ Result: Pass 
+*****************************
+
+
+
+******************************
+ Result summary for Testcase11
+******************************
+
+
+[2016-06-21 07:15:11.839762] [FUNCvirNetNBL3] [CASE]  Virtual Network NBI Test - Gateway Update
+
+[2016-06-21 07:15:11.841724] [FUNCvirNetNBL3] [STEP]  11.1: Post Network Data via HTTP(Post port need post network)
+
+[2016-06-21 07:15:11.850649] [FUNCvirNetNBL3] [STEP]  11.2: Post Subnet Data via HTTP(Post port need post subnet)
+
+[2016-06-21 07:15:11.881119] [FUNCvirNetNBL3] [STEP]  11.3: Post Port Data via HTTP
+
+[2016-06-21 07:15:11.901996] [FUNCvirNetNBL3] [STEP]  11.4: Post Router Data via HTTP
+
+[2016-06-21 07:15:11.910856] [FUNCvirNetNBL3] [STEP]  11.5: Post New Router Data via HTTP
+
+[2016-06-21 07:15:11.929009] [FUNCvirNetNBL3] [STEP]  11.6: Get Gateway Data via HTTP
+
+[2016-06-21 07:15:11.938628] [FUNCvirNetNBL3] [STEP]  11.7: Compare Post Gateway Data
+
+[2016-06-21 07:15:11.940254] [FUNCvirNetNBL3] [STEP]  11.8: Clean Data via HTTP
+
+
+*****************************
+ Result: Pass 
+*****************************
+
+
+
+******************************
+ Result summary for Testcase12
+******************************
+
+
+[2016-06-21 07:15:11.968543] [FUNCvirNetNBL3] [CASE]  Virtual Network NBI Test - Gateway Delete
+
+[2016-06-21 07:15:11.970701] [FUNCvirNetNBL3] [STEP]  12.1: Post Network Data via HTTP(Post port need post network)
+
+[2016-06-21 07:15:11.987665] [FUNCvirNetNBL3] [STEP]  12.2: Post Subnet Data via HTTP(Post port need post subnet)
+
+[2016-06-21 07:15:12.000418] [FUNCvirNetNBL3] [STEP]  12.3: Post Port Data via HTTP
+
+[2016-06-21 07:15:12.021244] [FUNCvirNetNBL3] [STEP]  12.4: Post Router Data via HTTP
+
+[2016-06-21 07:15:12.039638] [FUNCvirNetNBL3] [STEP]  12.5: Post Del Gateway Data via HTTP
+
+[2016-06-21 07:15:12.053600] [FUNCvirNetNBL3] [STEP]  12.6: Get Gateway Data via HTTP
+
+[2016-06-21 07:15:12.072875] [FUNCvirNetNBL3] [STEP]  12.7: If Gateway Data is NULL
+
+[2016-06-21 07:15:17.078737] [FUNCvirNetNBL3] [STEP]  12.8: Clean Data via HTTP
+
+
+*****************************
+ Result: Pass 
+*****************************
+
+
+
+
+*************************************
+	Test Execution Summary
+
+************************************* 
+
+ Test Start           : 21 Jun 2016 07:14:55
+ Test End             : 21 Jun 2016 07:15:17
+ Execution Time       : 0:00:21.753311
+ Total tests planned  : 11
+ Total tests RUN      : 11
+ Total Pass           : 11
+ Total Fail           : 0
+ Total No Result      : 0
+ Success Percentage   : 100%
+ Execution Result     : 100%

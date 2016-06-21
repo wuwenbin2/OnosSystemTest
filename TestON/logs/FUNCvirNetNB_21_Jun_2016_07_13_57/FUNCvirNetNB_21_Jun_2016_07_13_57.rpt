@@ -1,0 +1,167 @@
+
+                                +----------------+
+------------------------------ { Script And Files }  ------------------------------
+                                +----------------+
+
+	Script Log File : /home/functest/OnosSystemTest/TestON/logs/FUNCvirNetNB_21_Jun_2016_07_13_57/FUNCvirNetNB_21_Jun_2016_07_13_57.log
+	Report Log File : /home/functest/OnosSystemTest/TestON/logs/FUNCvirNetNB_21_Jun_2016_07_13_57/FUNCvirNetNB_21_Jun_2016_07_13_57.rpt
+	ONOSrest Session Log : /home/functest/OnosSystemTest/TestON/logs/FUNCvirNetNB_21_Jun_2016_07_13_57/ONOSrest.session
+	Test Script :/home/functest/OnosSystemTest/TestON/Tests/FUNCvirNetNB.py
+	Test Params : /home/functest/OnosSystemTest/TestON/Tests/FUNCvirNetNB.params
+	Topology : /home/functest/OnosSystemTest/TestON/Tests/FUNCvirNetNB.topo
+                              +------------------+
+---------------------------  { Script Exec Params }  ---------------------------
+                              +------------------+
+
+	
+	'MININET': 
+	'switch': '7'
+	 'links': '20'
+	
+	 'GIT': 
+	'pull': 'False'
+	 'branch': 'master'
+	
+	 'HTTP': 
+	'path': '/onos/vtn/'
+	 'port': '8181'
+	
+	 'CTRL': 
+	'ip1': 'OC1'
+	 'port1': '6633'
+	
+	 'testcases': '2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10'
+	 'SLEEP': 
+	'startup': '15'
+	
+	 'ENV': 
+	'cellApps': 'drivers
+	openflow
+	proxyarp
+	mobility'
+	 'cellName': 'singlenode'
+	
+	
+
+                               +---------------+
+----------------------------- { Components Used }  -----------------------------
+                               +---------------+
+	ONOSrest
+
+
+                              +--------+
+---------------------------- { Topology }  ----------------------------
+                              +--------+
+
+	
+	'ONOSrest': 
+	'connect_order': '4'
+	 'host': 'OC1'
+	 'user': 'root'
+	 'COMPONENTS': ''
+	 'password': 'r00tme'
+	 'type': 'OnosRestDriver'
+	
+	
+------------------------------------------------------------
+
+******************************
+ CASE INIT 
+******************************
+
+******************************
+ Result summary for Testcase2
+******************************
+
+*****************************
+ Result: Pass 
+*****************************
+
+******************************
+ Result summary for Testcase3
+******************************
+
+*****************************
+ Result: Pass 
+*****************************
+
+******************************
+ Result summary for Testcase4
+******************************
+
+*****************************
+ Result: Pass 
+*****************************
+
+******************************
+ Result summary for Testcase5
+******************************
+
+*****************************
+ Result: Pass 
+*****************************
+
+******************************
+ Result summary for Testcase6
+******************************
+
+*****************************
+ Result: Pass 
+*****************************
+
+******************************
+ Result summary for Testcase7
+******************************
+
+*****************************
+ Result: Pass 
+*****************************
+
+******************************
+ Result summary for Testcase8
+******************************
+
+*****************************
+ Result: Pass 
+*****************************
+
+******************************
+ Result summary for Testcase9
+******************************
+
+*****************************
+ Result: Pass 
+*****************************
+
+******************************
+ Result summary for Testcase10
+******************************
+
+*****************************
+ Result: Pass 
+*****************************
+
+
+*************************************
+	Test Execution Summary
+
+************************************* 
+
+ Test Start           : 21 Jun 2016 07:13:57
+ Test End             : 21 Jun 2016 07:14:13
+ Execution Time       : 0:00:15.839218
+ Total tests planned  : 9
+ Total tests RUN      : 9
+ Total Pass           : 9
+ Total Fail           : 0
+ Total No Result      : 0
+ Success Percentage   : 100%
+ Execution Result     : 100%

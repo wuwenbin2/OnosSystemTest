@@ -1,0 +1,80 @@
+FUNCvirNetNB at 21 Jun 2016 07:13:57
+Case 2: Virtual Network NBI Test - Network Post - PASS
+Test Network Post NBI Verify Post Data same with Stored Data
+	2.1 Generate Post Data - No Result
+	2.2 Post Data via HTTP - PASS
+	2.3 Get Data via HTTP - PASS
+	2.4 Compare Send Id and Get Id - PASS
+
+Case 3: Virtual Network NBI Test - Network Update - PASS
+Test Network Update NBI Verify Update Data same with Stored Data
+	3.1 Generate Post Data - No Result
+	3.2 Post Data via HTTP - PASS
+	3.3 Update Data via HTTP - PASS
+	3.4 Get Data via HTTP - PASS
+	3.5 Compare Update data. - PASS
+
+Case 4: Virtual Network NBI Test - Network Delete - PASS
+Test Network Delete NBI Verify Stored Data is NULL after Delete
+	4.1 Generate Post Data - No Result
+	4.2 Post Data via HTTP - PASS
+	4.3 Delete Data via HTTP - PASS
+	4.4 Get Data is NULL - PASS
+
+Case 5: Virtual Network NBI Test - Subnet Post - PASS
+Test Subnet Post NBI Verify Stored Data is same with Post Data
+	5.1 Generate Post Data - No Result
+	5.2 Post Network Data via HTTP(Post Subnet need post network) - PASS
+	5.3 Post Subnet Data via HTTP - PASS
+	5.4 Get Subnet Data via HTTP - PASS
+	5.5 Compare Post Subnet Data via HTTP - PASS
+
+Case 6: Virtual Network NBI Test - Subnet Update - PASS
+Test Subnet Update NBI Verify Stored Data is same with Update Data
+	6.1 Generate Post Data - No Result
+	6.2 Post Network Data via HTTP(Post Subnet need post network) - PASS
+	6.3 Post Subnet Data via HTTP - PASS
+	6.4 Update Subnet Data via HTTP - PASS
+	6.5 Get Subnet Data via HTTP - PASS
+	6.6 Compare Subnet Data - PASS
+	6.7 Delete Subnet via HTTP - PASS
+
+Case 7: Virtual Network NBI Test - Subnet Delete - PASS
+Test Subnet Delete NBI Verify Stored Data is Null after Delete
+	7.1 Generate Post Data - No Result
+	7.2 Post Network Data via HTTP(Post Subnet need post network) - PASS
+	7.3 Post Subnet Data via HTTP - PASS
+	7.4 Delete Subnet Data via HTTP - PASS
+	7.5 Get Subnet Data is NULL - PASS
+
+Case 8: Virtual Network NBI Test - Port Post - PASS
+Test Port Post NBI Verify Stored Data is same with Post Data
+	8.1 Generate Post Data - No Result
+	8.2 Post Network Data via HTTP(Post port need post network) - PASS
+	8.3 Post Subnet Data via HTTP(Post port need post subnet) - PASS
+	8.4 Post Port Data via HTTP - PASS
+	8.5 Get Port Data via HTTP - PASS
+	8.6 Compare Post Port Data - PASS
+	8.7 Clean Data via HTTP - PASS
+
+Case 9: Virtual Network NBI Test - Port Update - PASS
+Test Port Update NBI Verify Stored Data is same with New Post Data
+	9.1 Generate Post Data - No Result
+	9.2 Post Network Data via HTTP(Post port need post network) - PASS
+	9.3 Post Subnet Data via HTTP(Post port need post subnet) - PASS
+	9.4 Post Port Data via HTTP - PASS
+	9.5 Update Port Data via HTTP - PASS
+	9.6 Get Port Data via HTTP - PASS
+	9.7 Compare Update Port Data - PASS
+	9.8 Clean Data via HTTP - PASS
+
+Case 10: Virtual Network NBI Test - Port Delete - PASS
+Test Port Delete NBI Verify port delete success
+	10.1 Generate Post Data - No Result
+	10.2 Post Network Data via HTTP(Post port need post network) - PASS
+	10.3 Post Subnet Data via HTTP(Post port need post subnet) - PASS
+	10.4 Post Port Data via HTTP - PASS
+	10.5 Delete Port Data via HTTP - PASS
+	10.6 Get Port Data is NULL - PASS
+	10.7 Clean Data via HTTP - PASS
+

@@ -1,0 +1,141 @@
+FUNCvirNetNB at 21 Jun 2016 07:13:57<p></p>
+<h3>Case 2: Virtual Network NBI Test - Network Post - PASS</h3>
+<p>Test Network Post NBI Verify Post Data same with Stored Data</p>
+<ul>
+<li>	2.1 Generate Post Data - No Result  <ac:emoticon ac:name="warning" /></li>
+
+<li>	2.2 Post Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	2.3 Get Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	2.4 Compare Send Id and Get Id - PASS  <ac:emoticon ac:name="tick" /></li>
+
+</ul>
+<h3>Case 3: Virtual Network NBI Test - Network Update - PASS</h3>
+<p>Test Network Update NBI Verify Update Data same with Stored Data</p>
+<ul>
+<li>	3.1 Generate Post Data - No Result  <ac:emoticon ac:name="warning" /></li>
+
+<li>	3.2 Post Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	3.3 Update Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	3.4 Get Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	3.5 Compare Update data. - PASS  <ac:emoticon ac:name="tick" /></li>
+
+</ul>
+<h3>Case 4: Virtual Network NBI Test - Network Delete - PASS</h3>
+<p>Test Network Delete NBI Verify Stored Data is NULL after Delete</p>
+<ul>
+<li>	4.1 Generate Post Data - No Result  <ac:emoticon ac:name="warning" /></li>
+
+<li>	4.2 Post Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	4.3 Delete Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	4.4 Get Data is NULL - PASS  <ac:emoticon ac:name="tick" /></li>
+
+</ul>
+<h3>Case 5: Virtual Network NBI Test - Subnet Post - PASS</h3>
+<p>Test Subnet Post NBI Verify Stored Data is same with Post Data</p>
+<ul>
+<li>	5.1 Generate Post Data - No Result  <ac:emoticon ac:name="warning" /></li>
+
+<li>	5.2 Post Network Data via HTTP(Post Subnet need post network) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	5.3 Post Subnet Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	5.4 Get Subnet Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	5.5 Compare Post Subnet Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+</ul>
+<h3>Case 6: Virtual Network NBI Test - Subnet Update - PASS</h3>
+<p>Test Subnet Update NBI Verify Stored Data is same with Update Data</p>
+<ul>
+<li>	6.1 Generate Post Data - No Result  <ac:emoticon ac:name="warning" /></li>
+
+<li>	6.2 Post Network Data via HTTP(Post Subnet need post network) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	6.3 Post Subnet Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	6.4 Update Subnet Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	6.5 Get Subnet Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	6.6 Compare Subnet Data - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	6.7 Delete Subnet via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+</ul>
+<h3>Case 7: Virtual Network NBI Test - Subnet Delete - PASS</h3>
+<p>Test Subnet Delete NBI Verify Stored Data is Null after Delete</p>
+<ul>
+<li>	7.1 Generate Post Data - No Result  <ac:emoticon ac:name="warning" /></li>
+
+<li>	7.2 Post Network Data via HTTP(Post Subnet need post network) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	7.3 Post Subnet Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	7.4 Delete Subnet Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	7.5 Get Subnet Data is NULL - PASS  <ac:emoticon ac:name="tick" /></li>
+
+</ul>
+<h3>Case 8: Virtual Network NBI Test - Port Post - PASS</h3>
+<p>Test Port Post NBI Verify Stored Data is same with Post Data</p>
+<ul>
+<li>	8.1 Generate Post Data - No Result  <ac:emoticon ac:name="warning" /></li>
+
+<li>	8.2 Post Network Data via HTTP(Post port need post network) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	8.3 Post Subnet Data via HTTP(Post port need post subnet) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	8.4 Post Port Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	8.5 Get Port Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	8.6 Compare Post Port Data - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	8.7 Clean Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+</ul>
+<h3>Case 9: Virtual Network NBI Test - Port Update - PASS</h3>
+<p>Test Port Update NBI Verify Stored Data is same with New Post Data</p>
+<ul>
+<li>	9.1 Generate Post Data - No Result  <ac:emoticon ac:name="warning" /></li>
+
+<li>	9.2 Post Network Data via HTTP(Post port need post network) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	9.3 Post Subnet Data via HTTP(Post port need post subnet) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	9.4 Post Port Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	9.5 Update Port Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	9.6 Get Port Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	9.7 Compare Update Port Data - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	9.8 Clean Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+</ul>
+<h3>Case 10: Virtual Network NBI Test - Port Delete - PASS</h3>
+<p>Test Port Delete NBI Verify port delete success</p>
+<ul>
+<li>	10.1 Generate Post Data - No Result  <ac:emoticon ac:name="warning" /></li>
+
+<li>	10.2 Post Network Data via HTTP(Post port need post network) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	10.3 Post Subnet Data via HTTP(Post port need post subnet) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	10.4 Post Port Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	10.5 Delete Port Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	10.6 Get Port Data is NULL - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	10.7 Clean Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+</ul>

@@ -1,0 +1,14 @@
+<TOPOLOGY>
+    <COMPONENT>
+
+        <ONOSrest>
+            <host>OC1</host>
+            <user> root</user>
+            <password> r00tme</password>
+            <type>OnosRestDriver</type>
+            <connect_order>4</connect_order>
+            <COMPONENTS> </COMPONENTS>
+        </ONOSrest>
+
+    </COMPONENT>
+</TOPOLOGY>

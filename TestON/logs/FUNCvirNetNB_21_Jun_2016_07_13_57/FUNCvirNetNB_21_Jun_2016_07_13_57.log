@@ -1,0 +1,329 @@
+
+                                +----------------+
+------------------------------ { Script And Files }  ------------------------------
+                                +----------------+
+
+	Script Log File : /home/functest/OnosSystemTest/TestON/logs/FUNCvirNetNB_21_Jun_2016_07_13_57/FUNCvirNetNB_21_Jun_2016_07_13_57.log
+	Report Log File : /home/functest/OnosSystemTest/TestON/logs/FUNCvirNetNB_21_Jun_2016_07_13_57/FUNCvirNetNB_21_Jun_2016_07_13_57.rpt
+	ONOSrest Session Log : /home/functest/OnosSystemTest/TestON/logs/FUNCvirNetNB_21_Jun_2016_07_13_57/ONOSrest.session
+	Test Script :/home/functest/OnosSystemTest/TestON/Tests/FUNCvirNetNB.py
+	Test Params : /home/functest/OnosSystemTest/TestON/Tests/FUNCvirNetNB.params
+	Topology : /home/functest/OnosSystemTest/TestON/Tests/FUNCvirNetNB.topo
+                              +------------------+
+---------------------------  { Script Exec Params }  ---------------------------
+                              +------------------+
+
+	
+	'MININET': 
+	'switch': '7'
+	 'links': '20'
+	
+	 'GIT': 
+	'pull': 'False'
+	 'branch': 'master'
+	
+	 'HTTP': 
+	'path': '/onos/vtn/'
+	 'port': '8181'
+	
+	 'CTRL': 
+	'ip1': 'OC1'
+	 'port1': '6633'
+	
+	 'testcases': '2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10'
+	 'SLEEP': 
+	'startup': '15'
+	
+	 'ENV': 
+	'cellApps': 'drivers
+	openflow
+	proxyarp
+	mobility'
+	 'cellName': 'singlenode'
+	
+	
+
+                               +---------------+
+----------------------------- { Components Used }  -----------------------------
+                               +---------------+
+	ONOSrest
+
+
+                              +--------+
+---------------------------- { Topology }  ----------------------------
+                              +--------+
+
+	
+	'ONOSrest': 
+	'connect_order': '4'
+	 'host': 'OC1'
+	 'user': 'root'
+	 'COMPONENTS': ''
+	 'password': 'r00tme'
+	 'type': 'OnosRestDriver'
+	
+	
+------------------------------------------------------------
+
+
+******************************
+ CASE INIT 
+******************************
+
+2016-06-21 07:13:57,171 - FUNCvirNetNB - INFO - Creating component Handle: ONOSrest
+
+
+******************************
+ Result summary for Testcase2
+******************************
+
+
+[2016-06-21 07:13:57.313926] [FUNCvirNetNB] [CASE]  Virtual Network NBI Test - Network Post
+
+[2016-06-21 07:13:57.314418] [FUNCvirNetNB] [STEP]  2.1: Generate Post Data
+
+[2016-06-21 07:13:57.315010] [FUNCvirNetNB] [STEP]  2.2: Post Data via HTTP
+
+[2016-06-21 07:13:57.371705] [FUNCvirNetNB] [STEP]  2.3: Get Data via HTTP
+
+[2016-06-21 07:13:57.410635] [FUNCvirNetNB] [STEP]  2.4: Compare Send Id and Get Id
+
+
+*****************************
+ Result: Pass 
+*****************************
+
+
+
+******************************
+ Result summary for Testcase3
+******************************
+
+
+[2016-06-21 07:13:57.430154] [FUNCvirNetNB] [CASE]  Virtual Network NBI Test - Network Update
+
+[2016-06-21 07:13:57.430636] [FUNCvirNetNB] [STEP]  3.1: Generate Post Data
+
+[2016-06-21 07:13:57.431271] [FUNCvirNetNB] [STEP]  3.2: Post Data via HTTP
+
+[2016-06-21 07:13:57.445273] [FUNCvirNetNB] [STEP]  3.3: Update Data via HTTP
+
+[2016-06-21 07:13:57.456946] [FUNCvirNetNB] [STEP]  3.4: Get Data via HTTP
+
+[2016-06-21 07:13:57.467746] [FUNCvirNetNB] [STEP]  3.5: Compare Update data.
+
+
+*****************************
+ Result: Pass 
+*****************************
+
+
+
+******************************
+ Result summary for Testcase4
+******************************
+
+
+[2016-06-21 07:13:57.483506] [FUNCvirNetNB] [CASE]  Virtual Network NBI Test - Network Delete
+
+[2016-06-21 07:13:57.484394] [FUNCvirNetNB] [STEP]  4.1: Generate Post Data
+
+[2016-06-21 07:13:57.485188] [FUNCvirNetNB] [STEP]  4.2: Post Data via HTTP
+
+[2016-06-21 07:13:57.494068] [FUNCvirNetNB] [STEP]  4.3: Delete Data via HTTP
+
+[2016-06-21 07:13:57.503415] [FUNCvirNetNB] [STEP]  4.4: Get Data is NULL
+
+
+*****************************
+ Result: Pass 
+*****************************
+
+
+
+******************************
+ Result summary for Testcase5
+******************************
+
+
+[2016-06-21 07:14:02.526086] [FUNCvirNetNB] [CASE]  Virtual Network NBI Test - Subnet Post
+
+[2016-06-21 07:14:02.526530] [FUNCvirNetNB] [STEP]  5.1: Generate Post Data
+
+[2016-06-21 07:14:02.527775] [FUNCvirNetNB] [STEP]  5.2: Post Network Data via HTTP(Post Subnet need post network)
+
+[2016-06-21 07:14:02.542142] [FUNCvirNetNB] [STEP]  5.3: Post Subnet Data via HTTP
+
+[2016-06-21 07:14:02.560717] [FUNCvirNetNB] [STEP]  5.4: Get Subnet Data via HTTP
+
+[2016-06-21 07:14:02.578893] [FUNCvirNetNB] [STEP]  5.5: Compare Post Subnet Data via HTTP
+
+
+*****************************
+ Result: Pass 
+*****************************
+
+
+
+******************************
+ Result summary for Testcase6
+******************************
+
+
+[2016-06-21 07:14:02.598110] [FUNCvirNetNB] [CASE]  Virtual Network NBI Test - Subnet Update
+
+[2016-06-21 07:14:02.598618] [FUNCvirNetNB] [STEP]  6.1: Generate Post Data
+
+[2016-06-21 07:14:02.599496] [FUNCvirNetNB] [STEP]  6.2: Post Network Data via HTTP(Post Subnet need post network)
+
+[2016-06-21 07:14:02.610692] [FUNCvirNetNB] [STEP]  6.3: Post Subnet Data via HTTP
+
+[2016-06-21 07:14:02.623618] [FUNCvirNetNB] [STEP]  6.4: Update Subnet Data via HTTP
+
+[2016-06-21 07:14:02.641115] [FUNCvirNetNB] [STEP]  6.5: Get Subnet Data via HTTP
+
+[2016-06-21 07:14:02.651574] [FUNCvirNetNB] [STEP]  6.6: Compare Subnet Data
+
+[2016-06-21 07:14:02.652277] [FUNCvirNetNB] [STEP]  6.7: Delete Subnet via HTTP
+
+
+*****************************
+ Result: Pass 
+*****************************
+
+
+
+******************************
+ Result summary for Testcase7
+******************************
+
+
+[2016-06-21 07:14:02.662748] [FUNCvirNetNB] [CASE]  Virtual Network NBI Test - Subnet Delete
+
+[2016-06-21 07:14:02.663197] [FUNCvirNetNB] [STEP]  7.1: Generate Post Data
+
+[2016-06-21 07:14:02.663916] [FUNCvirNetNB] [STEP]  7.2: Post Network Data via HTTP(Post Subnet need post network)
+
+[2016-06-21 07:14:02.671659] [FUNCvirNetNB] [STEP]  7.3: Post Subnet Data via HTTP
+
+[2016-06-21 07:14:02.684994] [FUNCvirNetNB] [STEP]  7.4: Delete Subnet Data via HTTP
+
+[2016-06-21 07:14:02.696495] [FUNCvirNetNB] [STEP]  7.5: Get Subnet Data is NULL
+
+
+*****************************
+ Result: Pass 
+*****************************
+
+
+
+******************************
+ Result summary for Testcase8
+******************************
+
+
+[2016-06-21 07:14:07.736536] [FUNCvirNetNB] [CASE]  Virtual Network NBI Test - Port Post
+
+[2016-06-21 07:14:07.737839] [FUNCvirNetNB] [STEP]  8.1: Generate Post Data
+
+[2016-06-21 07:14:07.739404] [FUNCvirNetNB] [STEP]  8.2: Post Network Data via HTTP(Post port need post network)
+
+[2016-06-21 07:14:07.755670] [FUNCvirNetNB] [STEP]  8.3: Post Subnet Data via HTTP(Post port need post subnet)
+
+[2016-06-21 07:14:07.768418] [FUNCvirNetNB] [STEP]  8.4: Post Port Data via HTTP
+
+[2016-06-21 07:14:07.790190] [FUNCvirNetNB] [STEP]  8.5: Get Port Data via HTTP
+
+[2016-06-21 07:14:07.802482] [FUNCvirNetNB] [STEP]  8.6: Compare Post Port Data
+
+[2016-06-21 07:14:07.804493] [FUNCvirNetNB] [STEP]  8.7: Clean Data via HTTP
+
+
+*****************************
+ Result: Pass 
+*****************************
+
+
+
+******************************
+ Result summary for Testcase9
+******************************
+
+
+[2016-06-21 07:14:07.820272] [FUNCvirNetNB] [CASE]  Virtual Network NBI Test - Port Update
+
+[2016-06-21 07:14:07.821430] [FUNCvirNetNB] [STEP]  9.1: Generate Post Data
+
+[2016-06-21 07:14:07.823449] [FUNCvirNetNB] [STEP]  9.2: Post Network Data via HTTP(Post port need post network)
+
+[2016-06-21 07:14:07.837258] [FUNCvirNetNB] [STEP]  9.3: Post Subnet Data via HTTP(Post port need post subnet)
+
+[2016-06-21 07:14:07.848311] [FUNCvirNetNB] [STEP]  9.4: Post Port Data via HTTP
+
+[2016-06-21 07:14:07.859313] [FUNCvirNetNB] [STEP]  9.5: Update Port Data via HTTP
+
+[2016-06-21 07:14:07.874240] [FUNCvirNetNB] [STEP]  9.6: Get Port Data via HTTP
+
+[2016-06-21 07:14:07.886245] [FUNCvirNetNB] [STEP]  9.7: Compare Update Port Data
+
+[2016-06-21 07:14:07.887890] [FUNCvirNetNB] [STEP]  9.8: Clean Data via HTTP
+
+
+*****************************
+ Result: Pass 
+*****************************
+
+
+
+******************************
+ Result summary for Testcase10
+******************************
+
+
+[2016-06-21 07:14:07.906597] [FUNCvirNetNB] [CASE]  Virtual Network NBI Test - Port Delete
+
+[2016-06-21 07:14:07.907263] [FUNCvirNetNB] [STEP]  10.1: Generate Post Data
+
+[2016-06-21 07:14:07.908227] [FUNCvirNetNB] [STEP]  10.2: Post Network Data via HTTP(Post port need post network)
+
+[2016-06-21 07:14:07.924258] [FUNCvirNetNB] [STEP]  10.3: Post Subnet Data via HTTP(Post port need post subnet)
+
+[2016-06-21 07:14:07.936063] [FUNCvirNetNB] [STEP]  10.4: Post Port Data via HTTP
+
+[2016-06-21 07:14:07.945252] [FUNCvirNetNB] [STEP]  10.5: Delete Port Data via HTTP
+
+[2016-06-21 07:14:07.956919] [FUNCvirNetNB] [STEP]  10.6: Get Port Data is NULL
+
+[2016-06-21 07:14:12.987248] [FUNCvirNetNB] [STEP]  10.7: Clean Data via HTTP
+
+
+*****************************
+ Result: Pass 
+*****************************
+
+
+
+
+*************************************
+	Test Execution Summary
+
+************************************* 
+
+ Test Start           : 21 Jun 2016 07:13:57
+ Test End             : 21 Jun 2016 07:14:13
+ Execution Time       : 0:00:15.839218
+ Total tests planned  : 9
+ Total tests RUN      : 9
+ Total Pass           : 9
+ Total Fail           : 0
+ Total No Result      : 0
+ Success Percentage   : 100%
+ Execution Result     : 100%

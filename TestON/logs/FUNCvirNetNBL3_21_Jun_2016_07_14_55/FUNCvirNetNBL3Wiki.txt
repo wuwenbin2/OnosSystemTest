@@ -1,0 +1,219 @@
+FUNCvirNetNBL3 at 21 Jun 2016 07:14:55<p></p>
+<h3>Case 2: Virtual Network NBI Test - Router Post - PASS</h3>
+<p>Test Router Post NBI Verify Stored Data is same with Post Data</p>
+<ul>
+<li>	2.1 Post Network Data via HTTP(Post Router need post network) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	2.2 Post Router Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	2.3 Get Router Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	2.4 Compare Post Router Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+</ul>
+<h3>Case 3: Virtual Network NBI Test - Router Update - PASS</h3>
+<p>Test Router Update NBI Verify Stored Data is same with Update Data</p>
+<ul>
+<li>	3.1 Post Network Data via HTTP(Post Router need post network) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	3.2 Post Router Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	3.3 Update Router Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	3.4 Get Router Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	3.5 Compare Router Data - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	3.6 Delete Router via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+</ul>
+<h3>Case 4: Virtual Network NBI Test - Router Delete - PASS</h3>
+<p>Test Router Delete NBI Verify Stored Data is Null after Delete</p>
+<ul>
+<li>	4.1 Post Network Data via HTTP(Post Router need post network) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	4.2 Post Router Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	4.3 Delete Router Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	4.4 Get Router Data is NULL - PASS  <ac:emoticon ac:name="tick" /></li>
+
+</ul>
+<h3>Case 5: Virtual Network NBI Test - RouterInterface Post - PASS</h3>
+<p>Test RouterInterface Post NBI Verify Stored Data is same with Post Data</p>
+<ul>
+<li>	5.1 Post Network Data via HTTP(Post port need post network) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	5.2 Post Subnet Data via HTTP(Post port need post subnet) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	5.3 Post Port Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	5.4 Post Router Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	5.5 Put RouterInterface Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	5.6 Get RouterInterface Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	5.7 Compare Post Port Data - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	5.8 Del RouterInterface Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	5.9 Clean Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+</ul>
+<h3>Case 6: Virtual Network NBI Test - RouterInterface Delete - PASS</h3>
+<p>Test RouterInterface Post NBI Verify Stored Data is same with Post Data</p>
+<ul>
+<li>	6.1 Post Network Data via HTTP(Post port need post network) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	6.2 Post Subnet Data via HTTP(Post port need post subnet) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	6.3 Post Port Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	6.4 Post Router Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	6.5 Post RouterInterface Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	6.6 Del RouterInterface Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	6.7 Delete Port Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	6.8 Get Port Data is NULL - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	6.9 Clean Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+</ul>
+<h3>Case 7: Virtual Network NBI Test - FloatingIp Post - PASS</h3>
+<p>Test FloatingIp Post NBI Verify Stored Data is same with Post Data</p>
+<ul>
+<li>	7.1 Post Network Data via HTTP(Post port need post network) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	7.2 Post Subnet Data via HTTP(Post port need post subnet) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	7.3 Post Port Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	7.4 Post Router Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	7.5 Get Port Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	7.6 Post FloatingIp Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	7.7 Get Port Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	7.8 Get FloatingIp Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	7.9 Get FloatingIp Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	7.10 Compare Post FloatingIp Data - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	7.11 Post FloatingIp Clean Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	7.12 Clean Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+</ul>
+<h3>Case 8: Virtual Network NBI Test - FloatingIp Update - PASS</h3>
+<p>Test FloatingIp Post NBI Verify Stored Data is same with Post Data</p>
+<ul>
+<li>	8.1 Post Network Data via HTTP(Post port need post network) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	8.2 Post Subnet Data via HTTP(Post port need post subnet) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	8.3 Post Port Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	8.4 Post Router Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	8.5 Post FloatingIp Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	8.6 Post Delete Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	8.7 Post NewPort Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	8.8 Post NewFloatingIp Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	8.9 Get NewFloatingIp Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	8.10 Compare Post FloatingIp Data - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	8.11 Post FloatingIp Clean Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	8.12 Clean Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+</ul>
+<h3>Case 9: Virtual Network NBI Test - FloatingIp Delete - PASS</h3>
+<p>Test FloatingIp Post NBI Verify Stored Data is same with Post Data</p>
+<ul>
+<li>	9.1 Post Network Data via HTTP(Post port need post network) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	9.2 Post Subnet Data via HTTP(Post port need post subnet) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	9.3 Post Port Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	9.4 Post Router Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	9.5 Post FloatingIp Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	9.6 Post FloatingIp Clean Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	9.7 Get FloatingIp Data is NULL - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	9.8 Clean Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+</ul>
+<h3>Case 10: Virtual Network NBI Test - Gateway Post - PASS</h3>
+<p>Test RouterInterface Post NBI Verify Stored Data is same with Post Data</p>
+<ul>
+<li>	10.1 Post Network Data via HTTP(Post port need post network) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	10.2 Post Subnet Data via HTTP(Post port need post subnet) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	10.3 Post Port Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	10.4 Post Router Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	10.5 Get Gateway Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	10.6 Compare Post Gateway Data - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	10.7 Clean Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+</ul>
+<h3>Case 11: Virtual Network NBI Test - Gateway Update - PASS</h3>
+<p>Test RouterInterface Post NBI Verify Stored Data is same with Post Data</p>
+<ul>
+<li>	11.1 Post Network Data via HTTP(Post port need post network) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	11.2 Post Subnet Data via HTTP(Post port need post subnet) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	11.3 Post Port Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	11.4 Post Router Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	11.5 Post New Router Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	11.6 Get Gateway Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	11.7 Compare Post Gateway Data - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	11.8 Clean Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+</ul>
+<h3>Case 12: Virtual Network NBI Test - Gateway Delete - PASS</h3>
+<p>Test RouterInterface Post NBI Verify Stored Data is same with Post Data</p>
+<ul>
+<li>	12.1 Post Network Data via HTTP(Post port need post network) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	12.2 Post Subnet Data via HTTP(Post port need post subnet) - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	12.3 Post Port Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	12.4 Post Router Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	12.5 Post Del Gateway Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	12.6 Get Gateway Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	12.7 If Gateway Data is NULL - PASS  <ac:emoticon ac:name="tick" /></li>
+
+<li>	12.8 Clean Data via HTTP - PASS  <ac:emoticon ac:name="tick" /></li>
+
+</ul>

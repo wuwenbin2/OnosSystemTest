@@ -1,0 +1,185 @@
+
+                                +----------------+
+------------------------------ { Script And Files }  ------------------------------
+                                +----------------+
+
+	Script Log File : /home/functest/OnosSystemTest/TestON/logs/FUNCvirNetNBL3_21_Jun_2016_07_14_55/FUNCvirNetNBL3_21_Jun_2016_07_14_55.log
+	Report Log File : /home/functest/OnosSystemTest/TestON/logs/FUNCvirNetNBL3_21_Jun_2016_07_14_55/FUNCvirNetNBL3_21_Jun_2016_07_14_55.rpt
+	ONOSrest Session Log : /home/functest/OnosSystemTest/TestON/logs/FUNCvirNetNBL3_21_Jun_2016_07_14_55/ONOSrest.session
+	Test Script :/home/functest/OnosSystemTest/TestON/Tests/FUNCvirNetNBL3.py
+	Test Params : /home/functest/OnosSystemTest/TestON/Tests/FUNCvirNetNBL3.params
+	Topology : /home/functest/OnosSystemTest/TestON/Tests/FUNCvirNetNBL3.topo
+                              +------------------+
+---------------------------  { Script Exec Params }  ---------------------------
+                              +------------------+
+
+	
+	'MININET': 
+	'switch': '7'
+	 'links': '20'
+	
+	 'GIT': 
+	'pull': 'False'
+	 'branch': 'master'
+	
+	 'HTTP': 
+	'path': '/onos/vtn/'
+	 'port': '8181'
+	
+	 'CTRL': 
+	'ip1': 'OC1'
+	 'port1': '6653'
+	
+	 'testcases': '2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11
+	12'
+	 'SLEEP': 
+	'startup': '15'
+	
+	 'ENV': 
+	'cellApps': 'drivers
+	openflow
+	proxyarp
+	mobility'
+	 'cellName': 'singlenode'
+	
+	
+
+                               +---------------+
+----------------------------- { Components Used }  -----------------------------
+                               +---------------+
+	ONOSrest
+
+
+                              +--------+
+---------------------------- { Topology }  ----------------------------
+                              +--------+
+
+	
+	'ONOSrest': 
+	'connect_order': '4'
+	 'host': 'OC1'
+	 'user': 'root'
+	 'COMPONENTS': ''
+	 'password': 'root'
+	 'type': 'OnosRestDriver'
+	
+	
+------------------------------------------------------------
+
+******************************
+ CASE INIT 
+******************************
+
+******************************
+ Result summary for Testcase2
+******************************
+
+*****************************
+ Result: Pass 
+*****************************
+
+******************************
+ Result summary for Testcase3
+******************************
+
+*****************************
+ Result: Pass 
+*****************************
+
+******************************
+ Result summary for Testcase4
+******************************
+
+*****************************
+ Result: Pass 
+*****************************
+
+******************************
+ Result summary for Testcase5
+******************************
+
+*****************************
+ Result: Pass 
+*****************************
+
+******************************
+ Result summary for Testcase6
+******************************
+
+*****************************
+ Result: Pass 
+*****************************
+
+******************************
+ Result summary for Testcase7
+******************************
+
+*****************************
+ Result: Pass 
+*****************************
+
+******************************
+ Result summary for Testcase8
+******************************
+
+*****************************
+ Result: Pass 
+*****************************
+
+******************************
+ Result summary for Testcase9
+******************************
+
+*****************************
+ Result: Pass 
+*****************************
+
+******************************
+ Result summary for Testcase10
+******************************
+
+*****************************
+ Result: Pass 
+*****************************
+
+******************************
+ Result summary for Testcase11
+******************************
+
+*****************************
+ Result: Pass 
+*****************************
+
+******************************
+ Result summary for Testcase12
+******************************
+
+*****************************
+ Result: Pass 
+*****************************
+
+
+*************************************
+	Test Execution Summary
+
+************************************* 
+
+ Test Start           : 21 Jun 2016 07:14:55
+ Test End             : 21 Jun 2016 07:15:17
+ Execution Time       : 0:00:21.753311
+ Total tests planned  : 11
+ Total tests RUN      : 11
+ Total Pass           : 11
+ Total Fail           : 0
+ Total No Result      : 0
+ Success Percentage   : 100%
+ Execution Result     : 100%
